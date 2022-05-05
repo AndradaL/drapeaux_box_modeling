@@ -1,0 +1,103 @@
+/* reset css */
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    line-height: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* basic style */
+body {
+    background-color: #333;
+    color: bisque;
+    font-family: 'Karla', sans-serif;
+}
+
+h1,
+h2 {
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    font-style: italic;
+}
+
+/* header + footer placements */
+h1 {
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+p {
+    width: 200px;
+    margin-left: 1600px;
+}
+
+/* size and placement of flags */
+main {
+    width: 100%;
+    height: 550px;
+    margin-top: 100px;
+}
+
+section {
+    display: inline-block;
+    width: 600px;
+    height: 500px;
+}
+
+article {
+    display: inline-block;
+    border: 1px solid black;
+    width: 300px;
+    height: 150px;
+    margin-left: 150px;
+    margin-top: 135px;
+}
+
+span {
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+}
+
+/* special sizes for Dutch flag */
+article.pays-bas>span.rouge,
+article.pays-bas>span.bleu,
+article.pays-bas>span.blanc {
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+}
+
+/* colors */
+.noir {
+    background-color: black;
+}
+
+.jaune {
+    background-color: yellow;
+}
+
+.rouge {
+    background-color: red;
+}
+
+.bleu {
+    background-color: blue;
+}
+
+.blanc {
+    background-color: white;
+}
